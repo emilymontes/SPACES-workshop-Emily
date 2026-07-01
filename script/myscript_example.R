@@ -9,3 +9,8 @@ ggplot(complete_old, aes(x = hindfoot_length, y = weight)) +
 ggplot(complete_old, aes(x = hindfoot_length, y = weight, color = plot_type)) +
   geom_point()
 
+#Boxplot
+ggplot(complete_old, aes(x = genus, y = weight)) +
+  geom_boxplot()
+
+View(complete_old)
